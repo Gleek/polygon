@@ -22,7 +22,7 @@ def filter_non_empty_polygons(polygons_with_properties):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python intersection_polygon_script.py input_polygon_file.geojson", file=sys.stderr)
+        print("Usage: python overlap_diff_poly.py input_polygon_file.geojson", file=sys.stderr)
         sys.exit(1)
 
     input_polygon_file_path = sys.argv[1]

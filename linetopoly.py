@@ -52,7 +52,7 @@ def simplify_feature_collection(file_path, buffer_distance, simplification_epsil
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python script.py input_file.geojson")
+        print("Usage: python linetopoly.py input_file.geojson")
         sys.exit(1)
 
     input_file_path = sys.argv[1]

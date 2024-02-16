@@ -25,7 +25,7 @@ def filter_polygons_by_radius(feature_collection, center_lat, center_lng, radius
 
 if __name__ == "__main__":
     if len(sys.argv) != 5:
-        print("Usage: python filter_polygons_by_radius.py input_polygon_file.geojson center_lat center_lng radius_km")
+        print("Usage: python filter_poly.py input_polygon_file.geojson center_lat center_lng radius_km")
         sys.exit(1)
 
     input_polygon_file_path = sys.argv[1]

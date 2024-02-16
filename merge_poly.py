@@ -58,7 +58,7 @@ def merge_overlapping_polygons(feature_collection, threshold=0.3):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python merge_polygons.py input_polygon_file.geojson", file=sys.stderr)
+        print("Usage: python merge_poly.py input_polygon_file.geojson", file=sys.stderr)
         sys.exit(1)
 
     input_polygon_file_path = sys.argv[1]

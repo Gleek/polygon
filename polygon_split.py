@@ -36,7 +36,7 @@ def process_feature_collection(input_file_path, max_coordinates=100):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: python split_large_polygons_script.py input_polygon_file.geojson max_coordinates", file=sys.stderr)
+        print("Usage: python polygon_split.py input_polygon_file.geojson max_coordinates", file=sys.stderr)
         sys.exit(1)
 
     input_polygon_file_path = sys.argv[1]

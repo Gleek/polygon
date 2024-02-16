@@ -38,7 +38,7 @@ def process_feature_collection(input_file_path):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python correct_winding_order_script.py input_polygon_file.geojson", file=sys.stderr)
+        print("Usage: python rewind.py input_polygon_file.geojson", file=sys.stderr)
         sys.exit(1)
 
     input_polygon_file_path = sys.argv[1]
